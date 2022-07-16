@@ -58,7 +58,7 @@ namespace Track
             splineContainer = GetComponent<SplineContainer>();
             meshFilter = GetComponent<MeshFilter>();
             meshCollider = GetComponent<MeshCollider>();
-            Loft();
+            //Loft();
 #if UNITY_EDITOR
             //EditorSplineUtility.afterSplineWasModified += OnAfterSplineWasModified;
             //EditorSplineUtility.RegisterSplineDataChanged<float>(OnAfterSplineDataWasModified);
@@ -97,6 +97,9 @@ namespace Track
 #if UNITY_EDITOR
         private void OnValidate()
         {
+            if (Application.isPlaying)
+                return;
+
             Loft();
         }
 #endif

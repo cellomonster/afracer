@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fedbcb8dec52b4b008fdc7ce090a60db
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - raceSettings: {fileID: 11400000, guid: 93bf22daad9764ef6bfb0e5ecf8789c6, type: 2}
+  - lapsDisplay: {instanceID: 0}
+  - timeDisplay: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

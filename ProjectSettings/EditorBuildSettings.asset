@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Menu/main menu.unity
+    guid: 0a623e6d2fedf4454a9f483d5eae683d
   - enabled: 1
     path: Assets/Maps/test track/test track scene.unity
     guid: 3442edea7d40749ce91c4c92400b20b3

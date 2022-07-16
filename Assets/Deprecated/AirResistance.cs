@@ -6,7 +6,6 @@ namespace Ship
 	public class AirResistance : MonoBehaviour
 	{
 		[SerializeField] private float sideResistance = 5f;
-		[SerializeField] private float forwardResistance = 0.1f;
 		[SerializeField] private float angularResistance = 0.5f;
 
 		[SerializeField] private new Rigidbody rigidbody;
